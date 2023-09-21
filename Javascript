@@ -22,5 +22,8 @@ function myFunction() {
 
 <button type="button" onclick="myFunction()">Click to change</button>
 
+// code for linking to an external file
+// <script src="externalScript.js"></script>
+
 </body>
 </html> 
