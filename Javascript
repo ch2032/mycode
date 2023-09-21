@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Start of javascript</h2>
+
+<button type="button"
+onclick="document.getElementById('display').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="display"></p>
+
+</body>
+</html> 
