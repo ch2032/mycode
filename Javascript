@@ -10,5 +10,14 @@ Click me to display Date and Time.</button>
 
 <p id="display"></p>
 
+
+<script>
+function myFunction() {
+  document.getElementById("paraChange").innerHTML = "Changed paragraph";
+}
+</script>
+
+<p id="paraChange">A Paragraph.</p>
+
 </body>
 </html> 
