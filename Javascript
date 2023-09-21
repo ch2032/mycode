@@ -2,6 +2,7 @@
 <html>
 <body>
 
+// A button that displays the date
 <h2>Start of javascript</h2>
 
 <button type="button"
@@ -10,14 +11,16 @@ Click me to display Date and Time.</button>
 
 <p id="display"></p>
 
-
+// Adding a function and button to change the text of a paragraph
 <script>
 function myFunction() {
   document.getElementById("paraChange").innerHTML = "Changed paragraph";
 }
 </script>
 
-<p id="paraChange">A Paragraph.</p>
+<p id="paraChange">Hello, this is a test paragraph.</p>
+
+<button type="button" onclick="myFunction()">Click to change</button>
 
 </body>
 </html> 
