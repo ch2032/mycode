@@ -172,11 +172,11 @@ footer a:link, footer a:visited {
 	padding: 0;
 	}
 .sidebar li {
-	line-height: 1.3em; 
+	line-height: 9px; 
 	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
 	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
+	padding-top: 15px; 
+	margin-bottom: 15px;
 	list-style-type: none;
 	}
 .sidebar li a:link {
