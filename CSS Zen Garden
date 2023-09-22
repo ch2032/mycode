@@ -32,9 +32,9 @@ h3 {
 	color: #7D775C;
 	}
 a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
+	font-style: italic; 
+	text-decoration:none; 
+	color: #53dbce;
 	}
 a:visited { 
 	font-weight: bold; 
