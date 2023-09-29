@@ -1,5 +1,6 @@
 // Self invoking function
 (function () {
   var abc = "Hello!!";  // I will invoke myself
+  alert( abc );  
 })();
-alert( abc );  // try moving the alert inside the function
+
