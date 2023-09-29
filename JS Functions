@@ -10,3 +10,14 @@ function foo() { alert('hello'); }
 // Calling function
 foo();
 
+
+// Nested functions
+// Variables from the outer function can be used within the inner function
+
+function outer() { 
+  var exampleVar = 3 // This variable is declared within the outer function
+  function inner() {
+    alert(exampleVar()) // The inner function displays the variable from the inner function
+  }
+}
+
