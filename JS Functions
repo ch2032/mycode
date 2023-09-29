@@ -21,3 +21,12 @@ function outer() {
   }
 }
 
+
+// Function adding a string and an integer
+function sum(a, b) {
+      return a + b;
+    }
+    sum(7, "4"); // Outputs "74"
+// JS coverts the 7 into a string
+
+
