@@ -19,8 +19,7 @@ foo();
 function outer() { 
   var x = 3;
   var y = 9;
-  var z = 0;
-  z = y / x;
+  var z = y / x;
   function inner() {
     // inner() function code
   }
