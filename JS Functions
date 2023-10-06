@@ -22,7 +22,7 @@ function outer() {
   var z = y / x;
   function inner() {
     var v = 7;
-    alert(v*z);
+    alert(typeOf(v*z));
   }
 }
 
