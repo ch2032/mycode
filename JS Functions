@@ -1,3 +1,5 @@
+// File for storing different functions and examples
+
 // Self invoking function
 (function () {
   var abc = "Hello!!";  // I will invoke myself
@@ -15,9 +17,12 @@ foo();
 // Variables from the outer function can be used within the inner function
 
 function outer() { 
-  var exampleVar = 3 // This variable is declared within the outer function
+  var x = 3;
+  var y = 9;
+  var z = 0;
+  z = y / x;
   function inner() {
-    alert(exampleVar()) // The inner function displays the variable from the inner function
+    // inner() function code
   }
 }
 
