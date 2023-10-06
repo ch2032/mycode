@@ -21,7 +21,8 @@ function outer() {
   var y = 9;
   var z = y / x;
   function inner() {
-    // inner() function code
+    var v = 7;
+    alert(v*z);
   }
 }
 
