@@ -12,3 +12,6 @@ function appendText() {
 
 function modify() {
   $("div").width("100pt");
+
+
+$("div, p").hide();
