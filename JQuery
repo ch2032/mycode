@@ -1,17 +1,17 @@
-
+// how to check if your js/jquery code/library is ready to run
 $(document).ready(function() {
     // insert juicy jQuery code here ...
 });
 
-
+// dynamically creating HTML elements on the fly
 function appendText() {
   var txt1 = `<div style="border-style:dotted">Test</div>`; // Create text with HTML
   $("body").append(txt1);   // Append new elements
 }
 
-
+// using the magic $() function to modify existing DOM elements
 function modify() {
   $("div").width("100pt");
 
-
+// using the magic $() on multiple HTML elements
 $("div, p").hide();
