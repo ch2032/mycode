@@ -1,1 +1,4 @@
 
+$(document).ready(function() {
+    // insert juicy jQuery code here ...
+});
