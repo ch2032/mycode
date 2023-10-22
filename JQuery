@@ -27,3 +27,8 @@ $("div, p").hide();
           "width": 2220,
           "framerate": 24 }
 }
+
+
+{
+  "vals": [ "Bob", "Tom", 22 ]
+}
