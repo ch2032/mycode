@@ -28,7 +28,7 @@ $("div, p").hide();
           "framerate": 24 }
 }
 
-
+// JSON arrays can have multiple types
 {
   "vals": [ "Bob", "Tom", 22 ]
 }
