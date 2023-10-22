@@ -15,3 +15,15 @@ function modify() {
 
 // using the magic $() on multiple HTML elements
 $("div, p").hide();
+
+// JSON CODE
+
+{
+    "name": "Jack",
+    "at"  : true,
+    "grade": "A",
+    "format": {
+          "type": "rect",
+          "width": 2220,
+          "framerate": 24 }
+}
