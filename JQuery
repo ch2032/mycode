@@ -35,5 +35,6 @@ $("div, p").hide();
 }
 
 // how to access that info
+// output would be 34
 vals[0][0]
 
