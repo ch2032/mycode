@@ -17,7 +17,7 @@ function modify() {
 $("div, p").hide();
 
 // JSON CODE
-
+// JSON objects are wrapped in {} brackets
 {
     "name": "Jack",
     "at"  : true,
