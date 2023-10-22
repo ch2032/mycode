@@ -29,6 +29,7 @@ $("div, p").hide();
 }
 
 // JSON arrays can have multiple types
+// JSON arrays can have arrays within them
 {
   "vals": [[34,55], [22, 23]]
 }
