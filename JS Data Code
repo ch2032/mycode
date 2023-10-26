@@ -5,5 +5,5 @@ if (window.localStorage) {
 } else {
   // No localStorage support
 }
-
+// how to set cookies
 document.cookie = "name=value; Expires=...; Path=...; Domain=...";
