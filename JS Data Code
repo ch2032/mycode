@@ -27,3 +27,6 @@ function go() {
   document.writeln("Cookie set: " + c); }
 </script>
 </body>
+
+getCookieNames() // returns array of cookie names.
+getCookieValue(name) // takes a string argument and returns its cookie value
