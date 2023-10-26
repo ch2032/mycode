@@ -1,0 +1,32 @@
+// code for seeing if web storage is supported
+if (window.localStorage) {
+  // Browser supports localStorage
+  // Good to go
+} else {
+  // No localStorage support
+}
+// how to set cookies
+document.cookie = "name=value; Expires=...; Path=...; Domain=...";
+
+// sets a cookie for a year
+<body onload="go()">
+<script>
+function go() {
+  c = Cookie("Skill", "basic", 365) + "; Domain=hw.ac.uk; Path=/";
+  document.cookie = c;
+  document.writeln("Cookie set: " + c); }
+</script>
+</body>
+
+// deleting cookie by setting date in past
+<body onload="go()">
+<script>
+function go() {
+  c = Cookie("Skill", "anything", -1) + "; Domain=hw.ac.uk; Path=/";
+  document.cookie = c;
+  document.writeln("Cookie set: " + c); }
+</script>
+</body>
+
+getCookieNames() // returns array of cookie names.
+getCookieValue(name) // takes a string argument and returns its cookie value
