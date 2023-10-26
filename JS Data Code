@@ -17,3 +17,13 @@ function go() {
   document.writeln("Cookie set: " + c); }
 </script>
 </body>
+
+// deleting cookie by setting date in past
+<body onload="go()">
+<script>
+function go() {
+  c = Cookie("Skill", "anything", -1) + "; Domain=hw.ac.uk; Path=/";
+  document.cookie = c;
+  document.writeln("Cookie set: " + c); }
+</script>
+</body>
