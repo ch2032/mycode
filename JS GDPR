@@ -1,1 +1,7 @@
-
+// code for seeing if web storage is supported
+if (window.localStorage) {
+  // Browser supports localStorage
+  // Good to go
+} else {
+  // No localStorage support
+}
