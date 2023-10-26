@@ -7,3 +7,13 @@ if (window.localStorage) {
 }
 // how to set cookies
 document.cookie = "name=value; Expires=...; Path=...; Domain=...";
+
+// sets a cookie for a year
+<body onload="go()">
+<script>
+function go() {
+  c = Cookie("Skill", "basic", 365) + "; Domain=hw.ac.uk; Path=/";
+  document.cookie = c;
+  document.writeln("Cookie set: " + c); }
+</script>
+</body>
