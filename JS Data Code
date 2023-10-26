@@ -5,3 +5,5 @@ if (window.localStorage) {
 } else {
   // No localStorage support
 }
+
+document.cookie = "name=value; Expires=...; Path=...; Domain=...";
