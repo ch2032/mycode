@@ -30,3 +30,8 @@ function go() {
 
 getCookieNames() // returns array of cookie names.
 getCookieValue(name) // takes a string argument and returns its cookie value
+
+// SYNCHRONOUS EXAMPLE
+var result = database.query("SELECT * FROM bigtable");
+console.log("db operation is done");
+console.log("Hello World");
