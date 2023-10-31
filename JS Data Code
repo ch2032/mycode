@@ -35,3 +35,7 @@ getCookieValue(name) // takes a string argument and returns its cookie value
 var result = database.query("SELECT * FROM bigtable");
 console.log("db operation is done");
 console.log("Hello World");
+
+// OUTPUT
+db operation is done
+   Hello World
