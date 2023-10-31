@@ -9,7 +9,8 @@
 
 // Creating function
 function foo() { alert('hello'); }
-// Calling function
+
+// Calling function when not self-invoked
 foo();
 
 
