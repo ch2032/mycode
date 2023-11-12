@@ -6,10 +6,6 @@
   alert( abc );  
 })();
 
-
-// Creating function
-function foo() { alert('hello'); }
-
 // Calling function when not self-invoked
 foo();
 
