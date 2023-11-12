@@ -1,4 +1,7 @@
 // File for storing different functions and examples
+// Creating a function
+function foo() {
+}
 
 // Self invoking function
 (function () {
