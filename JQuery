@@ -9,9 +9,6 @@ function appendText() {
   $("body").append(txt1);   // Append new elements
 }
 
-// using the magic $() function to modify existing DOM elements
-function modify() {
-  $("div").width("100pt");
 
 // using the magic $() on multiple HTML elements
 $("div, p").hide();
