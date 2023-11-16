@@ -3,6 +3,8 @@ console.log('test');
 
 var http = require("http");
 
+
+// This code creates a server and shows you how to write a response to it
 //create a server object:
 http
   .createServer(function(req, res) {
