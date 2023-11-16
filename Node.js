@@ -13,3 +13,8 @@ http
     res.end(); //end the response
   })
   .listen(8080); //the server object listens on port 8080
+
+// SYNCHRONOUS EXAMPLE
+var result = database.query("SELECT * FROM bigtable");
+console.log("db operation is done");
+console.log("Hello World");
