@@ -1,8 +1,8 @@
 function abc(){
   return 1;
 }
-function abc(){
+function abcd(){
   return 2;
 }
 
-alert( abc() ) // output would be 2
+alert( abc() ) // output would be 1
