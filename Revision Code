@@ -5,4 +5,4 @@ function abc(){
   return 2;
 }
 
-alert( abc() );
+alert( abc() ) // output would be 2
