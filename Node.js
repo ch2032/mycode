@@ -23,7 +23,7 @@ console.log("Hello World");
 // db operation is done
   // Hello World
 
-// ASYNCHRONOUS EXAMPLE
+// asynchronous example
 atabase.query("SELECT * FROM bigtable", function(rows) {
      var result = rows;
      console.log("After db operation");
