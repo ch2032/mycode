@@ -14,7 +14,7 @@ http
   })
   .listen(8080); //the server object listens on port 8080
 
-// shynchrnous example
+// synchronous example
 var result = database.query("SELECT * FROM bigtable");
 console.log("db operation is done");
 console.log("Hello World");
