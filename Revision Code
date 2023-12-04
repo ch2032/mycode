@@ -1,7 +1,7 @@
 function abc(){
   return 1;
 }
-function abcd(){
+function abc(){
   return 2;
 }
 
